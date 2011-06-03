@@ -1,10 +1,7 @@
 =head0 *Preface
 
-=head1 Getting Enlightened
+=head1 What is Test Driven Enlightenment?
 
-=begin sidebar
-
-Stuff!
 
 =head1 Stuff and Thangs
 
