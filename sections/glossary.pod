@@ -1,0 +1,10 @@
+=head1 Testing Glossary
+
+=head2 BDD
+
+Behavior Driven Development
+
+=head2 mock
+
+=head2 fixture
+
