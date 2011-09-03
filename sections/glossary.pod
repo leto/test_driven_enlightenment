@@ -20,3 +20,19 @@ never mock the code you are actually testing. Instead, you mock code that it
 
 A fixture is really just a fancy name for "test data".
 
+=head2 test suite
+
+A test suite is a collection of tests that is considered a unit. Often, small
+projects will only have a single test suite, but larger projects will have many.
+For instance, many projects will have a "core test suite" that takes a short
+time to run and which is used to give developers quick feedback. If the core
+test suite passes, then the complete test suite will be run. This makes a big
+difference when your core test suite takes a few minutes but your full test
+suite takes a few hours.
+
+=head2 continuous integration
+
+Continuous integration means hooking up your test suite to your version control
+system so that each commit "kicks off" a run of the test suite. When test suites
+take a long time, this is sometimes relaxed to running the test suite at fixed
+intervals, such as once an hour or once a day.
