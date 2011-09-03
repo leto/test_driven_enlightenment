@@ -4,7 +4,19 @@
 
 Behavior Driven Development
 
-=head2 mock
+=head2 mocking
+
+Mocking is a technique where you "fake out" parts of your code to facilitate
+testing. For example, if you wanted to test that your code behaved correctly
+when the disk is full, you can "mock" the function which returns how much disk
+space is left to return 0, and then test that your code reacts correctly. This
+is a whole lot easier and faster than actually filling up the disk.
+
+One important point that many novice testers don't quite get is that you should
+never mock the code you are actually testing. Instead, you mock code that it
+*depends* on or reacts to, such as the above example.
 
 =head2 fixture
+
+A fixture is really just a fancy name for "test data".
 
