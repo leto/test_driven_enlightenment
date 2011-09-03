@@ -1,5 +1,8 @@
 =head1 Testing Glossary
 
+Z<glossary>
+X<glossary>
+
 =head2 BDD
 
 Behavior Driven Development

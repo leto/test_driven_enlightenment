@@ -4,3 +4,4 @@ build/pdf/*.pdf
 examples/
 !build/pdf/.gitignore
 !build/epub/.gitignore
+*.swp
