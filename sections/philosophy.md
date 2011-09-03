@@ -2,12 +2,16 @@
 
 =head1 Philosophy of Testing
 
-The field of automated software testing is a mixture of an art and science.
-Different folks have different needs that they want satisfied and hence, they
-approach testing very differently.
+The field of automated software testing is a mixture of art and science, with a
+side of alchemy. Different folks have different needs that they want satisfied
+and hence, they approach testing very differently. In the end, people do what
+works for them, and no single methodology works for everybody, which makes the
+field of testing a smorgasborg of techniques.
 
 The more important code is to your business or lifestyle, the more important
-writing tests and running tests becomes
+writing tests and running tests becomes.
+
+=head1 What is Test Driven Enlightenment?
 
 =head2 Tests First, or Code First?
 
@@ -26,4 +30,3 @@ a blank slate.
 
 Although it is possible to write tests as the absolutely first thing, sometimes
 having a tiny bit of structure first helps really helps.
-
