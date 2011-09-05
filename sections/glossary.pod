@@ -18,6 +18,12 @@ intervals, such as once an hour or once a day.
 
 A fixture is really just a fancy name for "test data".
 
+=head2 harness
+
+=head2 integration test
+
+=head2 intermittent failure
+
 =head2 mocking
 
 Mocking is a technique where you "fake out" parts of your code to facilitate
@@ -30,6 +36,8 @@ One important point that many novice testers don't quite get is that you should
 never mock the code you are actually testing. Instead, you mock code that it
 *depends* on or reacts to, such as the above example.
 
+=head2 smoking
+
 =head2 test suite
 
 A test suite is a collection of tests that is considered a unit. Often, small
@@ -39,4 +47,10 @@ time to run and which is used to give developers quick feedback. If the core
 test suite passes, then the complete test suite will be run. This makes a big
 difference when your core test suite takes a few minutes but your full test
 suite takes a few hours.
+
+=head2 todo test
+
+=head2 unit test
+
+=head2 plan
 
