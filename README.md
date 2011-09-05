@@ -2,16 +2,18 @@
 
 # Intended Audience
 
+Anybody who wants to learn more about testing software to improve its awesomeness.
+
 # Reviewer Guidelines
 
 I appreciate all suggestions and critiques, especially:
 
- * is the work accurate?
- * is the work complete?
- * is the work coherent?
- * are there missing sections and subjects?
- * are the examples effective?
- * is the flow of information appropriate?
+ * Is the work accurate?
+ * Is the work complete?
+ * Is the work coherent?
+ * Are there missing sections and subjects?
+ * Are the examples effective?
+ * Is the flow of information appropriate?
 
 # Building this Book
 
@@ -59,7 +61,6 @@ installed from the CPAN.
 
 
 # Contributing to Test Drive Enlightenment
----------------------------
 
 This work is licensed under a Creative Commons Attribution-Noncommercial-Share
 Alike 3.0 United States License.  For more details, see:
