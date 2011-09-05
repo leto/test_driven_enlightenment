@@ -1,5 +1,8 @@
 =head0 *Philosophy
 
+Z<philosophy>
+X<philosophy>
+
 =head1 Philosophy of Testing
 
 The field of automated software testing is a mixture of art and science, with a
