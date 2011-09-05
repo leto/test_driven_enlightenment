@@ -7,6 +7,17 @@ X<glossary>
 
 Behavior Driven Development
 
+=head2 continuous integration
+
+Continuous integration means hooking up your test suite to your version control
+system so that each commit "kicks off" a run of the test suite. When test suites
+take a long time, this is sometimes relaxed to running the test suite at fixed
+intervals, such as once an hour or once a day.
+
+=head2 fixture
+
+A fixture is really just a fancy name for "test data".
+
 =head2 mocking
 
 Mocking is a technique where you "fake out" parts of your code to facilitate
@@ -19,10 +30,6 @@ One important point that many novice testers don't quite get is that you should
 never mock the code you are actually testing. Instead, you mock code that it
 *depends* on or reacts to, such as the above example.
 
-=head2 fixture
-
-A fixture is really just a fancy name for "test data".
-
 =head2 test suite
 
 A test suite is a collection of tests that is considered a unit. Often, small
@@ -33,9 +40,3 @@ test suite passes, then the complete test suite will be run. This makes a big
 difference when your core test suite takes a few minutes but your full test
 suite takes a few hours.
 
-=head2 continuous integration
-
-Continuous integration means hooking up your test suite to your version control
-system so that each commit "kicks off" a run of the test suite. When test suites
-take a long time, this is sometimes relaxed to running the test suite at fixed
-intervals, such as once an hour or once a day.
