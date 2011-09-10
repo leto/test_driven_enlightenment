@@ -1,0 +1,27 @@
+
+=head1 Writing Your First Test
+
+Z<basics>
+X<basics>
+
+Writing your first test may be the hardest one that you ever write, because it
+just gets easier and easier to "think in terms of tests" as you continue to
+write them and rely on them. That being said, you should write your first test
+RIGHT NOW. Get it done with so you don't have to carry along all that baggage
+of "not knowing how to write tests."
+
+In Perl 5, these two lines will get you started.
+
+=begin programlisting
+
+    use Test::More tests => 1;
+    ok(42, "The answer to the universe true");
+
+=end
+
+You can run the above tests if you put them in a file, perhaps called test.pl,
+and running them with
+
+    prove -v test.pl
+
+The -v for prove gives you verbose output.
