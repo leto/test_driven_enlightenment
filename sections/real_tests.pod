@@ -1,0 +1,29 @@
+
+=head1 Running Real Test Suites
+
+Z<real_tests>
+X<real_tests>
+
+Overview of how to run various kinds of test suites from different projects.
+
+=head2 CASH Music
+
+PHP tests with Simpletest
+
+    php tests/php/all.php
+
+=head2 SpiderMonkey
+
+Describe how to run the JIT tests versus the full test suite and why both exist.
+
+=head2 Parrot
+
+Good example of a Makefile-based system.
+
+    make test
+
+=head2 Math::GSL
+
+Good example for CPAN modules
+
+    ./Build test
