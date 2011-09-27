@@ -1,0 +1,15 @@
+
+=head1 Tips And Tricks
+
+Z<tips_and_tricks>
+X<tips_and_tricks>
+
+=head2 Fake It Until You Make It TDD
+
+Many people do not have the luxury of writing their tests before the
+implementation, sometimes it is just not practical, or you have inherited a
+large codebase. Let's say you just wrote a test and it passes, but it seemed
+too easy. You aren't *really* sure that the test passes for the right reasons.
+What to do? Break the code your test relies on (flip a conditional, return from
+a function early, etc..) and run your test again, to make sure it fails. If
+not, you have a not-so-great test that needs improvement.
