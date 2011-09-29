@@ -33,3 +33,21 @@ a blank slate.
 
 Although it is possible to write tests as the absolutely first thing, sometimes
 having a tiny bit of structure first helps really helps.
+
+=head1 Kinds of Tests
+
+Many people start to get confused when people speak of integration tests,
+unit tests, acceptance tests and many other flavors of tests. One
+should not worry too much about these terms. The more tests you write, the more
+nuances you will see and the differences between tests will become more
+apparent. Everyone does not have the same definition for what these tests are,
+but the terms are still useful to describe kinds of tests.
+
+=head2 Unit Tests vs. Integration Tests
+
+Unit tests and integration tests form a spectrum. Unit tests test small bits of
+code, and integration tests verify how more than one unit fits together. The
+test writer gets to decide what comprises a unit, but most often it is at the
+level of a function or method, although some languages call those things by
+different names.
+
