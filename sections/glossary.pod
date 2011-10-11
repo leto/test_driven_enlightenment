@@ -20,9 +20,18 @@ A fixture is really just a fancy name for "test data".
 
 =head2 harness
 
+A program which runs a test suite and usually issues a summary of what passed
+and what failed and other metadata about the test run.
+
 =head2 integration test
 
 =head2 intermittent failure
+
+A test which fails occasionally. This can be caused by many things, but often
+is due to something in the test environment changing or being corrupt. For instance,
+if your tests assume an empty database schema, but occasionally a test blows up
+and leaves behind junk in the database, some later test which assumes an empty
+database may fail.
 
 =head2 mocking
 
@@ -38,6 +47,10 @@ never mock the code you are actually testing. Instead, you mock code that it
 
 =head2 smoking
 
+Smoking is slang for running a test suite, which usually involves posting the
+results somewhere publicly accessible in an automated way. Looking at failing
+test suite output is sometimes referred to as "seeing what color the smoke is".
+
 =head2 test suite
 
 A test suite is a collection of tests that is considered a unit. Often, small
@@ -50,7 +63,11 @@ suite takes a few hours.
 
 =head2 todo test
 
+A test which is written but is known to not pass yet.
+
 =head2 unit test
 
 =head2 plan
+
+A "plan" is usually a statement about how many tests will be run.
 
