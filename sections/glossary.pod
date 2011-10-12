@@ -14,6 +14,14 @@ system so that each commit "kicks off" a run of the test suite. When test suites
 take a long time, this is sometimes relaxed to running the test suite at fixed
 intervals, such as once an hour or once a day.
 
+=head2 code coverage
+
+Code coverage or test coverage describes the percentage of your code that is
+exercised by your test suite. If your test suite used half of the code in your
+implementation, then you would have 50% code coverage. The higher the code
+coverage, the less likely there are to be bugs, but even 100% code coverage
+does not mean no bugs exist.
+
 =head2 fixture
 
 A fixture is really just a fancy name for "test data".
