@@ -4,26 +4,54 @@
 Z<real_tests>
 X<real_tests>
 
-Overview of how to run various kinds of test suites from different projects.
+GIST: Overview of how to run various kinds of test suites from different free and
+open source projects. Show various kinds of tests suites in different languages.
+Point out similarities and differences.
+
+You can learn theory until the heat death of the universe, but putting what you
+learn into practice is the only way to improve your skills.
 
 =head2 CASH Music
 
-PHP tests with Simpletest
+CASH Music is a PHP web platform for musicians and artists. It uses the
+SimpleTest PHP library for unit tests and Perl libraries Test::Most and
+WWW::Mechanize for integration tests.
+
+To get the code:
+
+    git clone git://github.com/cashmusic/DIY.git
+    cd DIY
+
+Then, you can need to run a "test installer" which sets up a SQLite test database
+
+    php installers/php/test_installer.php
+
+Then, to run all the unit tests
 
     php tests/php/all.php
 
-=head2 SpiderMonkey
+To run the integration tests, ...
+
+    prove -lrv tests/integration/
+
+=head2 SpiderMonkey (Javascript Enging in Firefox)
 
 Describe how to run the JIT tests versus the full test suite and why both exist.
 
-=head2 Parrot
+=head2 Parrot Virtual Machine
 
 Good example of a Makefile-based system.
 
+    perl Configure.pl
+    make
     make test
 
-=head2 Math::GSL
+=head2 Math::MatrixReal
 
-Good example for CPAN modules
+Even if you don't like math, this is a good example of testing a Perl CPAN module.
 
+    git clone git://github.com/leto/math--matrixreal.git
+    cd math--matrixreal
+    perl Build.PL
+    ./Build
     ./Build test
